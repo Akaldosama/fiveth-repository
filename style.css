@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    padding: 20px 0px;
+    top: 0;
+    background-color: white;
+}
+
+nav ul {
+    margin: auto;
+    width: 1174px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+}
+
+nav .logo_class {
+    font-weight: 500;
+    font-size: 27px;
+    margin-right: auto;
+    font-family: serif;
+}
+
+#main1 .container {
+    width: 100%;
+    margin: auto;
+    background-image: url("./images/main_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main1 .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}
+
+#main1 .child {
+    padding: 10px;
+    color: white;
+    width: calc(100% / 2);
+    padding: 12px;
+}
+
+#main1 .child img {
+    width: 100%;
+}
+
+#main1 .child p {
+    font-size: 20px;
+}
+
+#main1 .child h1 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+#main1 .btn_1 {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: serif;
+    border-radius: 5px;
+}
+
+#main1 .btn_2 {
+    padding: 12px 20px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-family: serif;
+}
+
+
+#main2 .container {
+    background-color: #3E5C50;
+}
+
+#main2 .parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#main2 p {
+    text-align: center;
+    color: white;
+    opacity: .3;
+    padding: 20px 0px;
+}
+
+
+#main3 .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 920px;
+    margin: auto;
+}
+
+#main3 .child {
+    width: calc(100% / 2);
+    padding: 12px;
+}
+
+#main3 .child .img {
+    width: 100%;
+}
+
+#main3 .parent:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+#main3 h1 {
+    font-weight: 400;
+    font-size: 29px;
+    text-align: center;
+}
+
+#main3 h4 {
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+#main4 .container {
+    background-color: #DDE7ED;
+    width: 100%;
+}
+
+#main4 .parent {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    width: 960px;
+    margin: auto;
+}
+
+#main4 .child {
+    width: calc(100% / 4);
+    padding: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+#main4 .child p {
+    text-align: left;
+    line-height: 2.3em;
+    font-size: 14px;
+}
+
+#main4 .child h4 {
+    text-align: left;
+    line-height: 2.3em;
+    font-weight: 400;
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+#main4 .child h2 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#main4 .child span {
+    color: #489FD9;
+    font-size: 19px;
+}
+
+#main4 .child button {
+    padding: 10px 58px;
+    background-color: #000;
+    border: none;
+    color: white;
+}
+
+#main4 h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+#main4 p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+
+#main5 .parent{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+#main5 h1{
+    font-size: 29px;
+}
+#main5 p{
+    font-size: 25px;
+}
+
+
+#main6 .container{
+    background-color: #A1BFD4;
+    width: 100%;
+}
+#main6 .parent{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+
+
+footer{
+    background-color: #2B2C2E;
+    color: white;
+}
+footer .parent{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+    gap: 30px;
+}
+footer .child{
+    margin: 30px 0px;
+    width: calc(100% / 5);
+}
+footer .child:nth-child(1){
+    flex-grow: 1;
+}
+footer .input{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+footer li{
+    line-height: 1.8em;
+    list-style: none;
+    color: #939596;
+}
+footer h3{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 17px;
+}
+footer .box{
+    background-color: #5F6166;
+    width: 40%;
+    height: 30px;
+}
+
+
+
+
+
+
+.footer .child{
+    width: 1000px;
+    margin: auto;
+    padding: 12px;
+}
+.footer{
+    background-color: #1C1D1F;
+    color: white;
+}
